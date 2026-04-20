@@ -21,11 +21,16 @@ def parse_qgis_bookmarks(file_path):
             round(float(bookmark.find('ymax').text), 6)
         )
         
+        if bookmark.find('project') is not None:
+            prj_name = bookmark.find('project').text
+        else:
+            prj_name = ""
+                    
         # Store data using the coordinate tuple as the unique key
         bookmarks[coords] = {
             'id': bookmark.find('id').text,
             'name': bookmark.find('name').text,
-            'project': bookmark.find('project').text if bookmark.find('project') is not None else "",
+            'project': prj_name,
             'xmin': bookmark.find('xmin').text,
             'ymin': bookmark.find('ymin').text,
             'xmax': bookmark.find('xmax').text,
@@ -115,6 +120,22 @@ if __name__ == "__main__":
         help="Output XML file.",
     )
     
+    parser.add_argument(
+        "-d",
+        "--diff",
+        action="store_true",
+        default=False,
+        help="Print/Output the additional bookmarks to the console, if an output file path is provided.",
+    )
+    
+    parser.add_argument(
+        "--clearproj",
+        action="store_true",
+        default=False,
+        help="Clears the project name for all the bookmarks.",
+    )
+
+        
     parser.add_argument("files", nargs=2, help="Provide the two input XML files for comparison")
 
     args = parser.parse_args()
@@ -143,13 +164,27 @@ if __name__ == "__main__":
     
     common_bookmarks_lst, unq_bookmarks_lst = compare_bookmarks(bookmarks_f1, bookmarks_f2)
     
+    if args.clearproj:
+        for i, bookmark in enumerate(common_bookmarks_lst):
+            common_bookmarks_lst[i]["project"] = ""
+        for i, bookmark in enumerate(unq_bookmarks_lst):
+            unq_bookmarks_lst[i]["project"] = ""
+    
     n_xtra_bookmarks = len(unq_bookmarks_lst)
     n_common_bookmarks = len(common_bookmarks_lst)
     
     print(f"There are {n_common_bookmarks} bookmarks in common between the two files.")
     print(f"There are {n_xtra_bookmarks} bookmarks which are only in one of the two files.")
     
+    if args.diff:
+        import pprint
+        pprint.pprint(unq_bookmarks_lst)
+    
     if create_output:
         print("Creating output file")
-        slg_bookmark_lst = common_bookmarks_lst + unq_bookmarks_lst
+        if args.diff:
+            slg_bookmark_lst = unq_bookmarks_lst
+        else:
+            slg_bookmark_lst = common_bookmarks_lst + unq_bookmarks_lst
+        
         export_bookmarks_to_xml(slg_bookmark_lst, args.output)
