@@ -53,7 +53,7 @@ Note, the two input XMLs are ordered. The first XML file you provide will be the
 2) Use `qgis_merge_bookmarks.py` to compute the difference between those in the repo and the ones you have exported - output to XML.
 
    ```
-   python qgis_merge_bookmarks.py --clearproj -d -o diffs.xml gmw_qgis_bookmarks.xml exported_qgis_bookmarks.xml
+   python qgis_merge_bookmarks.py --clearproj -d -o diffs.xml ../gmw_qgis_bookmarks.xml exported_qgis_bookmarks.xml
    ```
 
 3) Check the `diffs.xml` and remove any bookmarks you do not want to merge
@@ -61,7 +61,7 @@ Note, the two input XMLs are ordered. The first XML file you provide will be the
 4) Use `qgis_merge_bookmarks.py` to merge the bookmarks in the repo and your `diffs.xml`
 
    ```
-   python qgis_merge_bookmarks.py -o gmw_qgis_bookmarks.xml ../gmw_qgis_bookmarks.xml exported_qgis_bookmarks.xml
+   python qgis_merge_bookmarks.py -o gmw_qgis_bookmarks.xml ../gmw_qgis_bookmarks.xml diffs.xml
 
    ```
 
@@ -121,4 +121,13 @@ The `--clearproj` switch will clear project names if they are present in either 
 ```
 python tools/qgis_merge_bookmarks.py -o merged_bookmarks.xml --overwrite --clearproj gmw_qgis_bookmarks.xml exported_qgis_bookmarks.xml
 ```
+
+
+### Summarise bookmarks list
+Using the expected structure `<Name>: <type>: <Country/Location> - <Description>` summarise the number of bookmarks for the `name` and `type`.
+
+```
+python tools/qgis_bookmark_summary.py gmw_qgis_bookmarks.xml
+```
+
 
