@@ -58,10 +58,10 @@ Note, the two input XMLs are ordered. The first XML file you provide will be the
 
 3) Check the `diffs.xml` and remove any bookmarks you do not want to merge
 
-4) Use `qgis_merge_bookmarks.py` to merge the bookmarks in the repo and your `diffs.xml`
+4) Use `qgis_merge_bookmarks.py` to merge the bookmarks in the repo and your `diffs.xml` - Set the project to be GMW so they are grouped in QGIS.
 
    ```
-   python qgis_merge_bookmarks.py -o gmw_qgis_bookmarks.xml ../gmw_qgis_bookmarks.xml diffs.xml
+   python qgis_merge_bookmarks.py --project GMW -o gmw_qgis_bookmarks.xml ../gmw_qgis_bookmarks.xml diffs.xml
 
    ```
 
@@ -69,7 +69,7 @@ Note, the two input XMLs are ordered. The first XML file you provide will be the
   ```
    python qgis_bookmark_summary.py gmw_qgis_bookmarks.xml
 
-   ```
+  ```
 
 7) Move the `gmw_qgis_bookmarks.xml` file to replace the existing file in the repo.
   
@@ -129,5 +129,4 @@ Using the expected structure `<Name>: <type>: <Country/Location> - <Description>
 ```
 python tools/qgis_bookmark_summary.py gmw_qgis_bookmarks.xml
 ```
-
 

@@ -3,7 +3,7 @@
   <bookmark>
     <id>{bf05e1ae-76b2-4c20-9468-63ebcb3b57db}</id>
     <name>GMW: Dynamic: Australia, QLD - Dynamic coastal spur</name>
-    <project/>
+    <project>GMW</project>
     <xmin>140.90373803700001076</xmin>
     <ymin>-17.11519509200000044</ymin>
     <xmax>140.99232985099999382</xmax>
@@ -14,7 +14,7 @@
   <bookmark>
     <id>{996aec8c-2cab-482e-b1c0-2ef2a449c3fb}</id>
     <name>GMW: Dynamic: Brazil, Crab Island </name>
-    <project/>
+    <project>GMW</project>
     <xmin>-44.70708546600000233</xmin>
     <ymin>-3.0989137040000001</ymin>
     <xmax>-44.28527540999999701</xmax>
@@ -25,7 +25,7 @@
   <bookmark>
     <id>{cdf3c399-2718-418a-bf8a-c33f393eff71}</id>
     <name>GMW: Dynamic: Brazil, Reserva Extrativista Marinha de Araí-Peroba</name>
-    <project/>
+    <project>GMW</project>
     <xmin>-45.94297268100000053</xmin>
     <ymin>-1.36216344399999989</ymin>
     <xmax>-45.64420363199999997</xmax>
@@ -36,7 +36,7 @@
   <bookmark>
     <id>{eae5e9d3-380d-405d-8463-cd11095e3f0e}</id>
     <name>GMW: Dynamic: Dominican Republic - Inland natural changes</name>
-    <project/>
+    <project>GMW</project>
     <xmin>-69.80088830500000086</xmin>
     <ymin>18.90908607100000083</ymin>
     <xmax>-69.19225938799999653</xmax>
@@ -47,7 +47,7 @@
   <bookmark>
     <id>{f0350680-a579-46a6-8159-f97a5171e178}</id>
     <name>GMW: Dynamic: Guinea-Bissau</name>
-    <project/>
+    <project>GMW</project>
     <xmin>-15.85270923200000048</xmin>
     <ymin>11.78846105000000044</ymin>
     <xmax>-15.55997499200000078</xmax>
@@ -56,20 +56,9 @@
     <sr_id>3452</sr_id>
   </bookmark>
   <bookmark>
-    <id>{c7002d47-3468-4336-87c3-101fee4c4348}</id>
-    <name>GMW: Loss: Indonesia - Mangroves lost to Dams and Urban</name>
-    <project/>
-    <xmin>103.89608721499999433</xmin>
-    <ymin>0.978828582</ymin>
-    <xmax>104.16435258500000316</xmax>
-    <ymax>1.14764657300000006</ymax>
-    <rotation>0</rotation>
-    <sr_id>3452</sr_id>
-  </bookmark>
-  <bookmark>
     <id>{8724ee8f-36ec-42fd-8ae9-e3dbf32d014d}</id>
     <name>GMW: Dynamic: Madagascar - dynamic estuary</name>
-    <project/>
+    <project>GMW</project>
     <xmin>46.16645308700000072</xmin>
     <ymin>-16.01425186399999845</ymin>
     <xmax>46.52899068800000038</xmax>
@@ -80,7 +69,7 @@
   <bookmark>
     <id>{508b400a-052b-4afc-92ff-b6bdcbd6df8b}</id>
     <name>GMW: Dynamic: Mexico/Belize - multiple phases of change</name>
-    <project/>
+    <project>GMW</project>
     <xmin>-88.44199027099999455</xmin>
     <ymin>16.4684637709999997</ymin>
     <xmax>-88.33053483300000153</xmax>
@@ -91,7 +80,7 @@
   <bookmark>
     <id>{699f2b65-879a-4124-9b93-4b4e63eff5f4}</id>
     <name>GMW: Dynamic: Mozambique - very dynamic area with a lot of change</name>
-    <project/>
+    <project>GMW</project>
     <xmin>36.62483497200000215</xmin>
     <ymin>-18.22010965600000176</ymin>
     <xmax>37.10366498199999796</xmax>
@@ -102,7 +91,7 @@
   <bookmark>
     <id>{1dc99296-5b81-474b-90f2-555d518cd0f1}</id>
     <name>GMW: Dynamic: Papua New Guinea - 1985 dieback and recovery by 1990</name>
-    <project/>
+    <project>GMW</project>
     <xmin>148.74787271100001362</xmin>
     <ymin>-9.1872217660000004</ymin>
     <xmax>149.01743404800001258</xmax>
@@ -113,7 +102,7 @@
   <bookmark>
     <id>{1dbb7e28-364a-47fe-a036-577934869ce7}</id>
     <name>GMW: Dynamic: Tanzania, Rufiji</name>
-    <project/>
+    <project>GMW</project>
     <xmin>39.17386676600000328</xmin>
     <ymin>-8.03785440300000076</ymin>
     <xmax>39.5170676799999967</xmax>
@@ -122,9 +111,20 @@
     <sr_id>3452</sr_id>
   </bookmark>
   <bookmark>
+    <id>{b39e21ae-3087-4222-8ce8-0dc4afb1fff4}</id>
+    <name>GMW: Dynamic: Vietnam (Ho Chi Minn) </name>
+    <project>GMW</project>
+    <xmin>106.73822079999999346</xmin>
+    <ymin>10.3903713979999992</ymin>
+    <xmax>107.09246909899999878</xmax>
+    <ymax>10.65155446600000033</ymax>
+    <rotation>0</rotation>
+    <sr_id>3452</sr_id>
+  </bookmark>
+  <bookmark>
     <id>{ef9a0879-7a6d-48bf-a3c5-b45fe1d5a8c0}</id>
     <name>GMW: Gain: Australia, QLD - Expansion </name>
-    <project/>
+    <project>GMW</project>
     <xmin>139.72626296799998613</xmin>
     <ymin>-17.6616232189999991</ymin>
     <xmax>139.86293879499999093</xmax>
@@ -135,7 +135,7 @@
   <bookmark>
     <id>{52f037c0-678d-4e6f-88e2-9ca7eafbc703}</id>
     <name>GMW: Gain: Colombia (West) - Inland Gain </name>
-    <project/>
+    <project>GMW</project>
     <xmin>-78.42426492299999552</xmin>
     <ymin>2.41962942500000011</ymin>
     <xmax>-78.1972935069999977</xmax>
@@ -146,7 +146,7 @@
   <bookmark>
     <id>{89ae9516-a7bb-497a-bd03-572e5141e57e}</id>
     <name>GMW: Gain: Cuba - Gains From 1985 to 1990</name>
-    <project/>
+    <project>GMW</project>
     <xmin>-78.756015086000005</xmin>
     <ymin>22.17048375099999902</ymin>
     <xmax>-78.44915347600000644</xmax>
@@ -157,7 +157,7 @@
   <bookmark>
     <id>{01718e97-3dd0-44b1-a2b2-8393f1e74ff1}</id>
     <name>GMW: Gain: Fiji - Mangrove Recovery</name>
-    <project/>
+    <project>GMW</project>
     <xmin>178.11777360299998918</xmin>
     <ymin>-17.38551513199999832</ymin>
     <xmax>178.20961376400001086</xmax>
@@ -168,7 +168,7 @@
   <bookmark>
     <id>{a90db46d-bbf1-498e-aa75-336b8d05d814}</id>
     <name>GMW: Gain: India (East) - Examples of Restoration Features</name>
-    <project/>
+    <project>GMW</project>
     <xmin>79.49347701599999994</xmin>
     <ymin>10.32317634200000001</ymin>
     <xmax>79.56422059599999841</xmax>
@@ -179,7 +179,7 @@
   <bookmark>
     <id>{862ad586-6e03-4ac1-9a5e-06a875aad5a2}</id>
     <name>GMW: Gain: India, Anderman and Nicbar Islands - Gains between 1985 - 2000</name>
-    <project/>
+    <project>GMW</project>
     <xmin>92.97311318200000585</xmin>
     <ymin>13.49978154899999971</ymin>
     <xmax>93.0232952570000009</xmax>
@@ -190,7 +190,7 @@
   <bookmark>
     <id>{54303c64-ac2d-47e1-a6d1-41e92f1556c8}</id>
     <name>GMW: Gain: Indonesia, Borneo - Mangrove Restoration Project</name>
-    <project/>
+    <project>GMW</project>
     <xmin>111.58959770699999581</xmin>
     <ymin>-2.99184244899999996</ymin>
     <xmax>111.5981295590000002</xmax>
@@ -201,7 +201,7 @@
   <bookmark>
     <id>{2cb8182e-9865-484e-b8d5-c2bbaa65d52d}</id>
     <name>GMW: Gain: Indonesia, Sumatra - Gain along river</name>
-    <project/>
+    <project>GMW</project>
     <xmin>103.23577596200000528</xmin>
     <ymin>0.09197757400000001</ymin>
     <xmax>103.63450524300000666</xmax>
@@ -212,7 +212,7 @@
   <bookmark>
     <id>{19e68ecf-193c-4baa-ad4c-ac053709e596}</id>
     <name>GMW: Gain: New Zealand - Mangrove Expansion</name>
-    <project/>
+    <project>GMW</project>
     <xmin>174.77479915500001084</xmin>
     <ymin>-36.97835973899999829</ymin>
     <xmax>174.88935089399998901</xmax>
@@ -223,7 +223,7 @@
   <bookmark>
     <id>{63c6133f-6461-44bf-9dde-63b037ec5d42}</id>
     <name>GMW: Gain: Philippines - 1990-1995 and onwards</name>
-    <project/>
+    <project>GMW</project>
     <xmin>124.11811427600000002</xmin>
     <ymin>12.98771797700000086</ymin>
     <xmax>124.22930330299999468</xmax>
@@ -234,7 +234,7 @@
   <bookmark>
     <id>{410b6ba5-6296-4746-a35c-1f914cd4426e}</id>
     <name>GMW: Gain: Philippines - Coastal Gains</name>
-    <project/>
+    <project>GMW</project>
     <xmin>122.8157619560000029</xmin>
     <ymin>11.40888637299999964</ymin>
     <xmax>123.00077381699999535</xmax>
@@ -245,7 +245,7 @@
   <bookmark>
     <id>{89fba928-7353-4a80-a450-f04f9d5d9599}</id>
     <name>GMW: Gain: Philippines - Dieback Recovery</name>
-    <project/>
+    <project>GMW</project>
     <xmin>123.62304446599999608</xmin>
     <ymin>8.60702953100000023</ymin>
     <xmax>123.71467565199999683</xmax>
@@ -256,7 +256,7 @@
   <bookmark>
     <id>{d4c4e1a6-4842-4d22-bbd2-b3b9a0b40be9}</id>
     <name>GMW: Gain: Philippines - Mangrove Gains (Possibly Planted)</name>
-    <project/>
+    <project>GMW</project>
     <xmin>124.42781248599999344</xmin>
     <ymin>8.57144798100000038</ymin>
     <xmax>124.534385302000004</xmax>
@@ -267,7 +267,7 @@
   <bookmark>
     <id>{6c74995d-fad8-43af-8370-cbb1e28f31cf}</id>
     <name>GMW: Gain: Philippines - Massive Expansion and Dieback Recovery</name>
-    <project/>
+    <project>GMW</project>
     <xmin>124.30605208999999434</xmin>
     <ymin>12.4924946220000006</ymin>
     <xmax>124.65037946600000396</xmax>
@@ -278,7 +278,7 @@
   <bookmark>
     <id>{873148e3-8bb3-4f0f-b7e1-8f511fd39d89}</id>
     <name>GMW: Gain: Senegal, Saloum</name>
-    <project/>
+    <project>GMW</project>
     <xmin>-16.95785780799999998</xmin>
     <ymin>13.37943266699999967</ymin>
     <xmax>-16.05698235899999915</xmax>
@@ -289,7 +289,7 @@
   <bookmark>
     <id>{d68347a0-aaa9-4e2c-ae32-271cce1dbc85}</id>
     <name>GMW: Gain: South Africa - Gain</name>
-    <project/>
+    <project>GMW</project>
     <xmin>31.95458482300000114</xmin>
     <ymin>-28.86462333200000074</ymin>
     <xmax>32.11415706700000072</xmax>
@@ -298,20 +298,9 @@
     <sr_id>3452</sr_id>
   </bookmark>
   <bookmark>
-    <id>{b39e21ae-3087-4222-8ce8-0dc4afb1fff4}</id>
-    <name>GMW: Dynamic: Vietnam (Ho Chi Minn) </name>
-    <project/>
-    <xmin>106.73822079999999346</xmin>
-    <ymin>10.3903713979999992</ymin>
-    <xmax>107.09246909899999878</xmax>
-    <ymax>10.65155446600000033</ymax>
-    <rotation>0</rotation>
-    <sr_id>3452</sr_id>
-  </bookmark>
-  <bookmark>
     <id>{69c7aca9-81d8-4367-b5c6-81c54261acb5}</id>
     <name>GMW: Gain: Vietnam (Southern Tip) - Coastal Gain</name>
-    <project/>
+    <project>GMW</project>
     <xmin>104.73679277300000479</xmin>
     <ymin>8.54379426999999936</ymin>
     <xmax>105.07297539099999995</xmax>
@@ -322,7 +311,7 @@
   <bookmark>
     <id>{6dcbeac3-162c-4695-a6d5-d9dad3b27598}</id>
     <name>GMW: Loss: Australia (QLD; North-East) - Dieback in 2019 </name>
-    <project/>
+    <project>GMW</project>
     <xmin>143.3446088960000111</xmin>
     <ymin>-12.98019825999999988</ymin>
     <xmax>143.47417689900001392</xmax>
@@ -333,7 +322,7 @@
   <bookmark>
     <id>{4a9d2f35-1b2a-427a-ae18-726f11a0cc1e}</id>
     <name>GMW: Loss: Cambodia</name>
-    <project/>
+    <project>GMW</project>
     <xmin>102.89201609200000576</xmin>
     <ymin>11.5258035509999992</ymin>
     <xmax>103.0449827340000013</xmax>
@@ -344,7 +333,7 @@
   <bookmark>
     <id>{27de6b00-7876-4e8d-84d3-f92c061975dd}</id>
     <name>GMW: Loss: India (North East) Dieback Event 2025</name>
-    <project/>
+    <project>GMW</project>
     <xmin>86.79055270000000633</xmin>
     <ymin>20.85775316499999832</ymin>
     <xmax>87.06198452700000701</xmax>
@@ -355,7 +344,7 @@
   <bookmark>
     <id>{092326ad-e93a-4067-8ad0-09519c8fba08}</id>
     <name>GMW: Loss: India, Anderman and Nicbar Islands</name>
-    <project/>
+    <project>GMW</project>
     <xmin>92.75693461299999854</xmin>
     <ymin>12.83977198400000042</ymin>
     <xmax>93.00485204999999667</xmax>
@@ -366,7 +355,7 @@
   <bookmark>
     <id>{2ed95fb4-88af-4ba1-9a5f-a909add30753}</id>
     <name>GMW: Loss: India, Sundarbans</name>
-    <project/>
+    <project>GMW</project>
     <xmin>88.46906793399999458</xmin>
     <ymin>21.43528115100000164</ymin>
     <xmax>88.92214464900000337</xmax>
@@ -375,20 +364,31 @@
     <sr_id>3452</sr_id>
   </bookmark>
   <bookmark>
-    <id>{61027cae-dc33-4400-9632-a8435768ea2a}</id>
-    <name>GMW: Loss: Indonesia, East Kalimantan, Borneo - Massive mangrove losses</name>
-    <project/>
-    <xmin>117.11002842099999555</xmin>
-    <ymin>-0.92949426199999996</ymin>
-    <xmax>117.69601931200000422</xmax>
-    <ymax>-0.29921336300000001</ymax>
+    <id>{c7002d47-3468-4336-87c3-101fee4c4348}</id>
+    <name>GMW: Loss: Indonesia - Mangroves lost to Dams and Urban</name>
+    <project>GMW</project>
+    <xmin>103.89608721499999433</xmin>
+    <ymin>0.978828582</ymin>
+    <xmax>104.16435258500000316</xmax>
+    <ymax>1.14764657300000006</ymax>
+    <rotation>0</rotation>
+    <sr_id>3452</sr_id>
+  </bookmark>
+  <bookmark>
+    <id>{1877af35-25b7-41a8-90d6-c85928001902}</id>
+    <name>GMW: Loss: Indonesia - Volcanic Eruption in April 2024 caused mangrove loss</name>
+    <project>GMW</project>
+    <xmin>125.21810614199999634</xmin>
+    <ymin>2.23710725900000007</ymin>
+    <xmax>125.52451539400000513</xmax>
+    <ymax>2.45727968000000008</ymax>
     <rotation>0</rotation>
     <sr_id>3452</sr_id>
   </bookmark>
   <bookmark>
     <id>{91ed5bfd-7b44-4bf2-8504-9d26fd163b2e}</id>
     <name>GMW: Loss: Indonesia, Borneo - Complex Sequence of Losses</name>
-    <project/>
+    <project>GMW</project>
     <xmin>110.25153057800000056</xmin>
     <ymin>1.55957520099999991</ymin>
     <xmax>110.46107143999999778</xmax>
@@ -397,9 +397,20 @@
     <sr_id>3452</sr_id>
   </bookmark>
   <bookmark>
+    <id>{61027cae-dc33-4400-9632-a8435768ea2a}</id>
+    <name>GMW: Loss: Indonesia, East Kalimantan, Borneo - Massive mangrove losses</name>
+    <project>GMW</project>
+    <xmin>117.11002842099999555</xmin>
+    <ymin>-0.92949426199999996</ymin>
+    <xmax>117.69601931200000422</xmax>
+    <ymax>-0.29921336300000001</ymax>
+    <rotation>0</rotation>
+    <sr_id>3452</sr_id>
+  </bookmark>
+  <bookmark>
     <id>{6227b7f1-a006-4b9e-a987-d4be9aedfdd2}</id>
     <name>GMW: Loss: Indonesia, North Kalimantan, Borneo - Massive mangrove losses</name>
-    <project/>
+    <project>GMW</project>
     <xmin>117.44429438100000596</xmin>
     <ymin>2.70382635899999979</ymin>
     <xmax>117.73678520500000388</xmax>
@@ -410,7 +421,7 @@
   <bookmark>
     <id>{1ca73505-0319-4d84-84c7-e9a79d5b81cd}</id>
     <name>GMW: Loss: Indonesia, West Papua - area of mangrove cutting</name>
-    <project/>
+    <project>GMW</project>
     <xmin>133.46923663100000113</xmin>
     <ymin>-2.62616888199999998</ymin>
     <xmax>133.72626325199999542</xmax>
@@ -421,7 +432,7 @@
   <bookmark>
     <id>{4b7dd721-9fb3-445c-b497-c7a8fbc47d8d}</id>
     <name>GMW: Loss: Indonesia, West Papua - Coastal Gain at estuary </name>
-    <project/>
+    <project>GMW</project>
     <xmin>136.47478950300001088</xmin>
     <ymin>-2.27818255599999997</ymin>
     <xmax>136.69807402199998592</xmax>
@@ -432,7 +443,7 @@
   <bookmark>
     <id>{1f9507b8-55b2-423e-b164-7572503440ae}</id>
     <name>GMW: Loss: Malaysia - Loss due to Port</name>
-    <project/>
+    <project>GMW</project>
     <xmin>103.50188124400000333</xmin>
     <ymin>1.30738919599999992</ymin>
     <xmax>103.73381101399999693</xmax>
@@ -443,7 +454,7 @@
   <bookmark>
     <id>{020ffcdd-5f55-4829-b48e-3b5eb9678412}</id>
     <name>GMW: Loss: Malaysia - Mangroves to Urban Example</name>
-    <project/>
+    <project>GMW</project>
     <xmin>101.25806981200000223</xmin>
     <ymin>2.91571164000000005</ymin>
     <xmax>101.48230497500000524</xmax>
@@ -454,7 +465,7 @@
   <bookmark>
     <id>{d6b3f053-42ec-496d-a887-5179ea29ffe0}</id>
     <name>GMW: Loss: Malaysia - Time sequence of losses</name>
-    <project/>
+    <project>GMW</project>
     <xmin>100.56146307400000239</xmin>
     <ymin>4.21936762300000012</ymin>
     <xmax>100.82610254499999769</xmax>
@@ -465,7 +476,7 @@
   <bookmark>
     <id>{f713fda7-fde7-40bd-aa7b-7c30f018273f}</id>
     <name>GMW: Loss: Myanmar (North) - Large losses converted to rice</name>
-    <project/>
+    <project>GMW</project>
     <xmin>93.44145693900000538</xmin>
     <ymin>19.54446418399999885</ymin>
     <xmax>93.91794988099999841</xmax>
@@ -476,7 +487,7 @@
   <bookmark>
     <id>{cb44b05d-0a1e-4060-9fda-0b413eb7d8d0}</id>
     <name>GMW: Loss: Nigeria, Niger Delta - Eastern Side due to Oil Pollution</name>
-    <project/>
+    <project>GMW</project>
     <xmin>6.63010662599999989</xmin>
     <ymin>4.34781705700000032</ymin>
     <xmax>7.31085558899999999</xmax>
@@ -487,7 +498,7 @@
   <bookmark>
     <id>{f3af543e-4e20-4e42-98f0-6599bacf4c0c}</id>
     <name>GMW: Loss: Nigeria, Niger Delta - Northern area due to infrastructure and dieback</name>
-    <project/>
+    <project>GMW</project>
     <xmin>5.41226052399999968</xmin>
     <ymin>5.47399989699999967</ymin>
     <xmax>5.65147694699999992</xmax>
@@ -498,7 +509,7 @@
   <bookmark>
     <id>{8f3e33ac-d027-4b2a-9632-ce5b3f0ddf39}</id>
     <name>GMW: Loss: Philippines - Dieback in 2021/22</name>
-    <project/>
+    <project>GMW</project>
     <xmin>119.15870581599999412</xmin>
     <ymin>10.02273889299999965</ymin>
     <xmax>119.41941764300000273</xmax>
@@ -509,7 +520,7 @@
   <bookmark>
     <id>{5c48890e-6e57-4d08-bcc9-f378de3353eb}</id>
     <name>GMW: Loss: Suriname - New Road Through Mangroves (2005 - 2010)</name>
-    <project/>
+    <project>GMW</project>
     <xmin>-56.4148164329999986</xmin>
     <ymin>5.85936099300000013</ymin>
     <xmax>-56.30284339100000324</xmax>
@@ -520,7 +531,7 @@
   <bookmark>
     <id>{3b6ff94b-10cd-42e7-a169-0a172c36ba39}</id>
     <name>GMW: Loss: USA, Everglades</name>
-    <project/>
+    <project>GMW</project>
     <xmin>-81.16457879600000069</xmin>
     <ymin>25.06325619400000093</ymin>
     <xmax>-80.78365224399999533</xmax>

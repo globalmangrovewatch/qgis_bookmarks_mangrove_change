@@ -22,15 +22,15 @@ def parse_qgis_bookmarks(file_path):
         )
         
         if bookmark.find('project') is not None:
-            prj_name = bookmark.find('project').text
+            prj_name_out = bookmark.find('project').text
         else:
-            prj_name = ""
+            prj_name_out = ""
                     
         # Store data using the coordinate tuple as the unique key
         bookmarks[coords] = {
             'id': bookmark.find('id').text,
             'name': bookmark.find('name').text,
-            'project': prj_name,
+            'project': prj_name_out,
             'xmin': bookmark.find('xmin').text,
             'ymin': bookmark.find('ymin').text,
             'xmax': bookmark.find('xmax').text,
@@ -119,6 +119,13 @@ if __name__ == "__main__":
         required=False,
         help="Output XML file.",
     )
+    parser.add_argument(
+        "-p",
+        "--project",
+        type=str,
+        required=False,
+        help="Name of the project.",
+    )
     
     parser.add_argument(
         "-d",
@@ -169,6 +176,11 @@ if __name__ == "__main__":
             common_bookmarks_lst[i]["project"] = ""
         for i, bookmark in enumerate(unq_bookmarks_lst):
             unq_bookmarks_lst[i]["project"] = ""
+    elif args.project is not None:
+        for i, bookmark in enumerate(common_bookmarks_lst):
+            common_bookmarks_lst[i]["project"] = args.project
+        for i, bookmark in enumerate(unq_bookmarks_lst):
+            unq_bookmarks_lst[i]["project"] = args.project
     
     n_xtra_bookmarks = len(unq_bookmarks_lst)
     n_common_bookmarks = len(common_bookmarks_lst)
