@@ -122,3 +122,12 @@ The `--clearproj` switch will clear project names if they are present in either 
 python tools/qgis_merge_bookmarks.py -o merged_bookmarks.xml --overwrite --clearproj gmw_qgis_bookmarks.xml exported_qgis_bookmarks.xml
 ```
 
+
+### Summarise bookmarks list
+Using the expected structure `<Name>: <type>: <Country/Location> - <Description>` summarise the number of bookmarks for the `name` and `type`.
+
+```
+python tools/qgis_bookmark_summary.py gmw_qgis_bookmarks.xml
+```
+
+
