@@ -57,7 +57,7 @@
   </bookmark>
   <bookmark>
     <id>{c7002d47-3468-4336-87c3-101fee4c4348}</id>
-    <name>GMW: Dynamic: Indonesia - Mangroves lost to Dams and Urban</name>
+    <name>GMW: Loss: Indonesia - Mangroves lost to Dams and Urban</name>
     <project/>
     <xmin>103.89608721499999433</xmin>
     <ymin>0.978828582</ymin>
@@ -189,7 +189,7 @@
   </bookmark>
   <bookmark>
     <id>{54303c64-ac2d-47e1-a6d1-41e92f1556c8}</id>
-    <name>GMW: Gain: Indonesia Borneo - Mangrove Restoration Project</name>
+    <name>GMW: Gain: Indonesia, Borneo - Mangrove Restoration Project</name>
     <project/>
     <xmin>111.58959770699999581</xmin>
     <ymin>-2.99184244899999996</ymin>
@@ -200,7 +200,7 @@
   </bookmark>
   <bookmark>
     <id>{2cb8182e-9865-484e-b8d5-c2bbaa65d52d}</id>
-    <name>GMW: Gain: Indonesia, Sumartra Dynamic Gain</name>
+    <name>GMW: Gain: Indonesia, Sumatra - Gain along river</name>
     <project/>
     <xmin>103.23577596200000528</xmin>
     <ymin>0.09197757400000001</ymin>
@@ -376,7 +376,7 @@
   </bookmark>
   <bookmark>
     <id>{61027cae-dc33-4400-9632-a8435768ea2a}</id>
-    <name>GMW: Loss: Indonesia East Kalimantan</name>
+    <name>GMW: Loss: Indonesia, East Kalimantan, Borneo - Massive mangrove losses</name>
     <project/>
     <xmin>117.11002842099999555</xmin>
     <ymin>-0.92949426199999996</ymin>
@@ -398,7 +398,7 @@
   </bookmark>
   <bookmark>
     <id>{6227b7f1-a006-4b9e-a987-d4be9aedfdd2}</id>
-    <name>GMW: Loss: Indonesia, North Kalimantan</name>
+    <name>GMW: Loss: Indonesia, North Kalimantan, Borneo - Massive mangrove losses</name>
     <project/>
     <xmin>117.44429438100000596</xmin>
     <ymin>2.70382635899999979</ymin>
@@ -409,7 +409,7 @@
   </bookmark>
   <bookmark>
     <id>{1ca73505-0319-4d84-84c7-e9a79d5b81cd}</id>
-    <name>GMW: Loss: Indonesia, West Papa - area of mangrove cutting</name>
+    <name>GMW: Loss: Indonesia, West Papua - area of mangrove cutting</name>
     <project/>
     <xmin>133.46923663100000113</xmin>
     <ymin>-2.62616888199999998</ymin>
@@ -420,7 +420,7 @@
   </bookmark>
   <bookmark>
     <id>{4b7dd721-9fb3-445c-b497-c7a8fbc47d8d}</id>
-    <name>GMW: Loss: Indonesia, West Papa - Coastal Gain</name>
+    <name>GMW: Loss: Indonesia, West Papua - Coastal Gain at estuary </name>
     <project/>
     <xmin>136.47478950300001088</xmin>
     <ymin>-2.27818255599999997</ymin>
