@@ -176,9 +176,6 @@ if __name__ == "__main__":
     print(f"There are {n_common_bookmarks} bookmarks in common between the two files.")
     print(f"There are {n_xtra_bookmarks} bookmarks which are only in one of the two files.")
     
-    if args.diff:
-        import pprint
-        pprint.pprint(unq_bookmarks_lst)
     
     if create_output:
         print("Creating output file")
@@ -188,3 +185,6 @@ if __name__ == "__main__":
             slg_bookmark_lst = common_bookmarks_lst + unq_bookmarks_lst
         
         export_bookmarks_to_xml(slg_bookmark_lst, args.output)
+    elif args.diff:
+        import pprint
+        pprint.pprint(unq_bookmarks_lst)

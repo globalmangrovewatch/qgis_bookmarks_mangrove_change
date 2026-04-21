@@ -38,11 +38,44 @@ GMW: Dynamic: Australia, QLD - Dynamic coastal spur
 | Gain  | Examples where it is mainly gain or at least that is the interesting element.  |
 | Loss  | Examples where it is mainly loss or at least that is the interesting element.  |
 
-## Python Tool
+## Python Tools
 
 The Python tool `tools/qgis_merge_bookmarks.py` has been provided to help support merging spatial bookmarks, as you cannot just export selected bookmarks from QGIS. 
 
 Note, the two input XMLs are ordered. The first XML file you provide will be the base file, and its information will be used for bookmarks common to both files. This means that if you change the name of the bookmark in the second file, this will be ignored and not copied over to the output. Only bookmarks which are not present in first file will be copied across.
+
+
+
+## Workflow
+
+1) Export your bookmarks from QGIS
+
+2) Use `qgis_merge_bookmarks.py` to compute the difference between those in the repo and the ones you have exported - output to XML.
+
+   ```
+   python qgis_merge_bookmarks.py --clearproj -d -o diffs.xml gmw_qgis_bookmarks.xml exported_qgis_bookmarks.xml
+   ```
+
+3) Check the `diffs.xml` and remove any bookmarks you do not want to merge
+
+4) Use `qgis_merge_bookmarks.py` to merge the bookmarks in the repo and your `diffs.xml`
+
+   ```
+   python qgis_merge_bookmarks.py -o gmw_qgis_bookmarks.xml ../gmw_qgis_bookmarks.xml exported_qgis_bookmarks.xml
+
+   ```
+
+5) Output summary of bookmarks (`qgis_bookmark_summary.py`) to check that output file is valid and has the entries you expect
+  ```
+   python qgis_bookmark_summary.py gmw_qgis_bookmarks.xml
+
+   ```
+
+7) Move the `gmw_qgis_bookmarks.xml` file to replace the existing file in the repo.
+  
+8) Commit changes to the repo.
+
+
 
 
 ### Simple Usage:
@@ -61,7 +94,7 @@ Will report the number in common and the differences between the two files, but 
 python tools/qgis_merge_bookmarks.py -d gmw_qgis_bookmarks.xml exported_qgis_bookmarks.xml
 ```
 
-Will report the number in common and the differences between the two files, but will also print the differences to the console and export the differences to a new XML file:
+Will report the number in common and the differences between the two files, but will export the differences to a new XML file:
 
 ```
 python tools/qgis_merge_bookmarks.py -d -o diffs.xml gmw_qgis_bookmarks.xml exported_qgis_bookmarks.xml
