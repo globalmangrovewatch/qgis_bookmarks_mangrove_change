@@ -485,6 +485,17 @@
     <sr_id>3452</sr_id>
   </bookmark>
   <bookmark>
+    <id>{4ebdc8c1-b28c-4c07-8d00-00f5eb1f49b2}</id>
+    <name>GMW: Loss: New Caledonia - Dieback in 2025 but other gains earlier in the period.</name>
+    <project>GMW</project>
+    <xmin>165.05757925800000407</xmin>
+    <ymin>-21.41372399200000132</ymin>
+    <xmax>165.20000067300000524</xmax>
+    <ymax>-21.30805649099999854</ymax>
+    <rotation>0</rotation>
+    <sr_id>3452</sr_id>
+  </bookmark>
+  <bookmark>
     <id>{cb44b05d-0a1e-4060-9fda-0b413eb7d8d0}</id>
     <name>GMW: Loss: Nigeria, Niger Delta - Eastern Side due to Oil Pollution</name>
     <project>GMW</project>
