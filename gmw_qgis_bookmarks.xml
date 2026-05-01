@@ -320,6 +320,28 @@
     <sr_id>3452</sr_id>
   </bookmark>
   <bookmark>
+    <id>{16a16e2e-dbd6-4867-991d-2d1cffc3b7b7}</id>
+    <name>GMW: Loss: Brazil - Dieback in the middle of a mangrove patch in 2021/2022</name>
+    <project>GMW</project>
+    <xmin>-40.32211485999999923</xmin>
+    <ymin>-19.97463393099999962</ymin>
+    <xmax>-40.14150827299999946</xmax>
+    <ymax>-19.84680385800000124</ymax>
+    <rotation>0</rotation>
+    <sr_id>3452</sr_id>
+  </bookmark>
+  <bookmark>
+    <id>{50cdeaaa-6dbd-497f-ae41-65a83f1d638a}</id>
+    <name>GMW: Loss: Brazil - Dieback in the middle of a mangrove patch in 2021/2022</name>
+    <project>GMW</project>
+    <xmin>-48.69941483299999874</xmin>
+    <ymin>-25.84629713800000061</ymin>
+    <xmax>-48.67517135899999658</xmax>
+    <ymax>-25.82912895799999831</ymax>
+    <rotation>0</rotation>
+    <sr_id>3452</sr_id>
+  </bookmark>
+  <bookmark>
     <id>{4a9d2f35-1b2a-427a-ae18-726f11a0cc1e}</id>
     <name>GMW: Loss: Cambodia</name>
     <project>GMW</project>
@@ -529,6 +551,17 @@
     <sr_id>3452</sr_id>
   </bookmark>
   <bookmark>
+    <id>{408cec10-a173-4c0b-8024-309538f00743}</id>
+    <name>GMW: Loss: Saudi Arabia - dieback since 2020 (picked up in 2025)</name>
+    <project>GMW</project>
+    <xmin>41.38549315099999859</xmin>
+    <ymin>18.44323571900000047</ymin>
+    <xmax>41.4974990460000015</xmax>
+    <ymax>18.52255345300000045</ymax>
+    <rotation>0</rotation>
+    <sr_id>3452</sr_id>
+  </bookmark>
+  <bookmark>
     <id>{5c48890e-6e57-4d08-bcc9-f378de3353eb}</id>
     <name>GMW: Loss: Suriname - New Road Through Mangroves (2005 - 2010)</name>
     <project>GMW</project>
@@ -547,6 +580,17 @@
     <ymin>25.06325619400000093</ymin>
     <xmax>-80.78365224399999533</xmax>
     <ymax>25.47297370600000121</ymax>
+    <rotation>0</rotation>
+    <sr_id>3452</sr_id>
+  </bookmark>
+  <bookmark>
+    <id>{4c53838b-3c46-4a2a-876c-d3badc375c88}</id>
+    <name>GMW: Loss: Yemen - Dieback from about 2020 onwards but also some earlier changes.</name>
+    <project>GMW</project>
+    <xmin>43.24685070200000325</xmin>
+    <ymin>13.49964456000000013</ymin>
+    <xmax>43.28567002599999824</xmax>
+    <ymax>13.52713472699999997</ymax>
     <rotation>0</rotation>
     <sr_id>3452</sr_id>
   </bookmark>
