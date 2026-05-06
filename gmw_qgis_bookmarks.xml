@@ -496,6 +496,17 @@
     <sr_id>3452</sr_id>
   </bookmark>
   <bookmark>
+    <id>{9eb013af-63f2-4a89-8af5-c274771a96b3}</id>
+    <name>GMW: Loss: Mexico - Dieback in 2024/2025</name>
+    <project>GMW</project>
+    <xmin>-92.25008294600000625</xmin>
+    <ymin>18.25148870700000003</ymin>
+    <xmax>-91.39849035700000002</xmax>
+    <ymax>18.75470250900000124</ymax>
+    <rotation>0</rotation>
+    <sr_id>3452</sr_id>
+  </bookmark>
+  <bookmark>
     <id>{f713fda7-fde7-40bd-aa7b-7c30f018273f}</id>
     <name>GMW: Loss: Myanmar (North) - Large losses converted to rice</name>
     <project>GMW</project>
