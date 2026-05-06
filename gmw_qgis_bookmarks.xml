@@ -342,6 +342,17 @@
     <sr_id>3452</sr_id>
   </bookmark>
   <bookmark>
+    <id>{95903af8-36f4-4362-bbca-3297170e5f93}</id>
+    <name>GMW: Loss: Brazil - Dieback in the middle of a mangrove patch in 2024/2025 - looks like a slower change than other examples</name>
+    <project>GMW</project>
+    <xmin>-39.06585792100000276</xmin>
+    <ymin>-13.35193438099999952</ymin>
+    <xmax>-39.00595343199999832</xmax>
+    <ymax>-13.31653627400000062</ymax>
+    <rotation>0</rotation>
+    <sr_id>3452</sr_id>
+  </bookmark>
+  <bookmark>
     <id>{4a9d2f35-1b2a-427a-ae18-726f11a0cc1e}</id>
     <name>GMW: Loss: Cambodia</name>
     <project>GMW</project>
