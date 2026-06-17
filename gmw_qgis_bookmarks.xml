@@ -210,6 +210,17 @@
     <sr_id>3452</sr_id>
   </bookmark>
   <bookmark>
+    <id>{56ce5d48-0a5a-4fa9-8dbe-aff4c88ad487}</id>
+    <name>GMW: Gain: India, Anderman and Nicbar Islands - Gains between 1985 - 2000</name>
+    <project>GMW</project>
+    <xmin>92.97311318200000585</xmin>
+    <ymin>13.49978154899999971</ymin>
+    <xmax>93.0232952570000009</xmax>
+    <ymax>13.53136086599999999</ymax>
+    <rotation>0</rotation>
+    <sr_id>3452</sr_id>
+  </bookmark>
+  <bookmark>
     <id>{2d25aaf2-419e-4a7a-b942-041015872c82}</id>
     <name>GMW: Gain: Indonesia, Borneo - Mangrove Restoration Project</name>
     <project>GMW</project>
@@ -518,6 +529,17 @@
     <sr_id>3452</sr_id>
   </bookmark>
   <bookmark>
+    <id>{a54add60-216f-441d-86f1-d4387b969f8d}</id>
+    <name>GMW: Loss: Indonesia, West Papua - Coastal Gain at estuary </name>
+    <project>GMW</project>
+    <xmin>136.47478950300001088</xmin>
+    <ymin>-2.27818255599999997</ymin>
+    <xmax>136.69807402199998592</xmax>
+    <ymax>-2.14624170399999992</ymax>
+    <rotation>0</rotation>
+    <sr_id>3452</sr_id>
+  </bookmark>
+  <bookmark>
     <id>{b8de74f6-42b0-4eee-863a-998b178059a5}</id>
     <name>GMW: Loss: Malaysia - Loss due to Port</name>
     <project>GMW</project>
@@ -573,6 +595,17 @@
     <sr_id>3452</sr_id>
   </bookmark>
   <bookmark>
+    <id>{ddabd840-762d-4041-a05b-8da537469cbc}</id>
+    <name>GMW: Loss: New Caledonia - Dieback in 2025 but other gains earlier in the period.</name>
+    <project>GMW</project>
+    <xmin>165.05757925800000407</xmin>
+    <ymin>-21.41372399200000132</ymin>
+    <xmax>165.20000067300000524</xmax>
+    <ymax>-21.30805649099999854</ymax>
+    <rotation>0</rotation>
+    <sr_id>3452</sr_id>
+  </bookmark>
+  <bookmark>
     <id>{f89c1978-14db-4a9f-82e4-11a3fd52deb4}</id>
     <name>GMW: Loss: Nigeria, Niger Delta - Eastern Side due to Oil Pollution</name>
     <project>GMW</project>
@@ -624,6 +657,17 @@
     <ymin>5.85936099300000013</ymin>
     <xmax>-56.30284339100000324</xmax>
     <ymax>5.92552688099999969</ymax>
+    <rotation>0</rotation>
+    <sr_id>3452</sr_id>
+  </bookmark>
+  <bookmark>
+    <id>{f6a7e364-4384-41b1-b49f-fe0b3000e7d3}</id>
+    <name>GMW: Loss: USA, Everglades</name>
+    <project>GMW</project>
+    <xmin>-81.16457879600000069</xmin>
+    <ymin>25.06325619400000093</ymin>
+    <xmax>-80.78365224399999533</xmax>
+    <ymax>25.47297370600000121</ymax>
     <rotation>0</rotation>
     <sr_id>3452</sr_id>
   </bookmark>
