@@ -56,6 +56,28 @@
     <sr_id>3452</sr_id>
   </bookmark>
   <bookmark>
+    <id>{392aa64e-0972-4b88-936e-70b7927a77a2}</id>
+    <name>GMW: Dynamic: India, Anderman and Nicbar Islands - Gains between 1985 - 2000, Loss 2005</name>
+    <project>GMW</project>
+    <xmin>92.97311318200000585</xmin>
+    <ymin>13.49709834599999958</ymin>
+    <xmax>93.0232952570000009</xmax>
+    <ymax>13.53404406900000012</ymax>
+    <rotation>0</rotation>
+    <sr_id>3452</sr_id>
+  </bookmark>
+  <bookmark>
+    <id>{29b9c5cd-96f2-42bc-9413-7250b57a4e90}</id>
+    <name>GMW: Dynamic: Indonesia, West Papa - Down stream from Grasberg gold and copper mine</name>
+    <project>GMW</project>
+    <xmin>136.85089569799998799</xmin>
+    <ymin>-4.91632633099999961</ymin>
+    <xmax>137.07958826600000179</xmax>
+    <ymax>-4.76873492400000032</ymax>
+    <rotation>0</rotation>
+    <sr_id>3452</sr_id>
+  </bookmark>
+  <bookmark>
     <id>{e95e34c1-9fc9-43a3-a68f-71e1641ab363}</id>
     <name>GMW: Dynamic: Madagascar - dynamic estuary</name>
     <project>GMW</project>
@@ -85,6 +107,17 @@
     <ymin>-18.22010965600000176</ymin>
     <xmax>37.10366498199999796</xmax>
     <ymax>-17.89661524899999989</ymax>
+    <rotation>0</rotation>
+    <sr_id>3452</sr_id>
+  </bookmark>
+  <bookmark>
+    <id>{e8007289-d2f5-40e5-add2-ffce9c2bf2ec}</id>
+    <name>GMW: Dynamic: New Caledonia - Dieback in 2025 but other gains earlier in the period.</name>
+    <project>GMW</project>
+    <xmin>165.05702774299999191</xmin>
+    <ymin>-21.41372399200000132</ymin>
+    <xmax>165.20055218799998897</xmax>
+    <ymax>-21.30805649099999854</ymax>
     <rotation>0</rotation>
     <sr_id>3452</sr_id>
   </bookmark>
@@ -177,17 +210,6 @@
     <sr_id>3452</sr_id>
   </bookmark>
   <bookmark>
-    <id>{392aa64e-0972-4b88-936e-70b7927a77a2}</id>
-    <name>GMW: Dynamic: India, Anderman and Nicbar Islands - Gains between 1985 - 2000, Loss 2005</name>
-    <project>GMW</project>
-    <xmin>92.97311318200000585</xmin>
-    <ymin>13.49709834599999958</ymin>
-    <xmax>93.0232952570000009</xmax>
-    <ymax>13.53404406900000012</ymax>
-    <rotation>0</rotation>
-    <sr_id>3452</sr_id>
-  </bookmark>
-  <bookmark>
     <id>{2d25aaf2-419e-4a7a-b942-041015872c82}</id>
     <name>GMW: Gain: Indonesia, Borneo - Mangrove Restoration Project</name>
     <project>GMW</project>
@@ -206,6 +228,28 @@
     <ymin>0.09197757400000001</ymin>
     <xmax>103.63450524300000666</xmax>
     <ymax>0.408001577</ymax>
+    <rotation>0</rotation>
+    <sr_id>3452</sr_id>
+  </bookmark>
+  <bookmark>
+    <id>{ab79d3fe-d342-41df-8852-97e99e0ede8f}</id>
+    <name>GMW: Gain: Indonesia, West Papua - Coastal Gain at estuary </name>
+    <project>GMW</project>
+    <xmin>136.47478950300001088</xmin>
+    <ymin>-2.29440689900000017</ymin>
+    <xmax>136.69807402199998592</xmax>
+    <ymax>-2.13001736100000016</ymax>
+    <rotation>0</rotation>
+    <sr_id>3452</sr_id>
+  </bookmark>
+  <bookmark>
+    <id>{fb0ce8ad-4982-4691-b192-8f82981d3e17}</id>
+    <name>GMW: Gain: Malaysia, Borneo - Significant gains at river estuary</name>
+    <project>GMW</project>
+    <xmin>115.52521591500000397</xmin>
+    <ymin>5.14537940800000015</ymin>
+    <xmax>115.68704631399999982</xmax>
+    <ymax>5.2683846299999999</ymax>
     <rotation>0</rotation>
     <sr_id>3452</sr_id>
   </bookmark>
@@ -294,6 +338,17 @@
     <ymin>-28.86462333200000074</ymin>
     <xmax>32.11415706700000072</xmax>
     <ymax>-28.73814990400000013</ymax>
+    <rotation>0</rotation>
+    <sr_id>3452</sr_id>
+  </bookmark>
+  <bookmark>
+    <id>{591aadb5-cd8b-4e83-b3b8-ea5ff93699a5}</id>
+    <name>GMW: Gain: Thailand - recovery from a dieback in 1980s/1990s.</name>
+    <project>GMW</project>
+    <xmin>98.44965981699999702</xmin>
+    <ymin>9.56397185900000046</ymin>
+    <xmax>98.5820535409999934</xmax>
+    <ymax>9.6675634670000008</ymax>
     <rotation>0</rotation>
     <sr_id>3452</sr_id>
   </bookmark>
@@ -463,17 +518,6 @@
     <sr_id>3452</sr_id>
   </bookmark>
   <bookmark>
-    <id>{ab79d3fe-d342-41df-8852-97e99e0ede8f}</id>
-    <name>GMW: Gain: Indonesia, West Papua - Coastal Gain at estuary </name>
-    <project>GMW</project>
-    <xmin>136.47478950300001088</xmin>
-    <ymin>-2.29440689900000017</ymin>
-    <xmax>136.69807402199998592</xmax>
-    <ymax>-2.13001736100000016</ymax>
-    <rotation>0</rotation>
-    <sr_id>3452</sr_id>
-  </bookmark>
-  <bookmark>
     <id>{b8de74f6-42b0-4eee-863a-998b178059a5}</id>
     <name>GMW: Loss: Malaysia - Loss due to Port</name>
     <project>GMW</project>
@@ -525,17 +569,6 @@
     <ymin>19.54446418399999885</ymin>
     <xmax>93.91794988099999841</xmax>
     <ymax>20.05697112900000079</ymax>
-    <rotation>0</rotation>
-    <sr_id>3452</sr_id>
-  </bookmark>
-  <bookmark>
-    <id>{e8007289-d2f5-40e5-add2-ffce9c2bf2ec}</id>
-    <name>GMW: Dynamic: New Caledonia - Dieback in 2025 but other gains earlier in the period.</name>
-    <project>GMW</project>
-    <xmin>165.05702774299999191</xmin>
-    <ymin>-21.41372399200000132</ymin>
-    <xmax>165.20055218799998897</xmax>
-    <ymax>-21.30805649099999854</ymax>
     <rotation>0</rotation>
     <sr_id>3452</sr_id>
   </bookmark>
