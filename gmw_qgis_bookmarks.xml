@@ -573,6 +573,17 @@
     <sr_id>3452</sr_id>
   </bookmark>
   <bookmark>
+    <id>{6b632436-9ae3-4110-b9cf-ae1d47b830e3}</id>
+    <name>GMW: Loss: Malaysia, Borneo - dieback due to hydrological distrubance from road</name>
+    <project>GMW</project>
+    <xmin>115.9985835370000018</xmin>
+    <ymin>5.76501592099999982</ymin>
+    <xmax>116.01877769899999748</xmax>
+    <ymax>5.78093189199999991</ymax>
+    <rotation>0</rotation>
+    <sr_id>3452</sr_id>
+  </bookmark>
+  <bookmark>
     <id>{9eb013af-63f2-4a89-8af5-c274771a96b3}</id>
     <name>GMW: Loss: Mexico - Dieback in 2024/2025</name>
     <project>GMW</project>
@@ -657,17 +668,6 @@
     <ymin>5.85936099300000013</ymin>
     <xmax>-56.30284339100000324</xmax>
     <ymax>5.92552688099999969</ymax>
-    <rotation>0</rotation>
-    <sr_id>3452</sr_id>
-  </bookmark>
-  <bookmark>
-    <id>{f6a7e364-4384-41b1-b49f-fe0b3000e7d3}</id>
-    <name>GMW: Loss: USA, Everglades</name>
-    <project>GMW</project>
-    <xmin>-81.16457879600000069</xmin>
-    <ymin>25.06325619400000093</ymin>
-    <xmax>-80.78365224399999533</xmax>
-    <ymax>25.47297370600000121</ymax>
     <rotation>0</rotation>
     <sr_id>3452</sr_id>
   </bookmark>
