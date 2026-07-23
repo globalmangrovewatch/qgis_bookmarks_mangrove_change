@@ -134,8 +134,9 @@ python tools/qgis_bookmark_summary.py gmw_qgis_bookmarks.xml
 
 To load the bookmarks, first download the gmw_qgis_bookmarks.xml from this repository. Then, within the QGIS browser window, select the 'Spatial Bookmarks' option and either right-click on the 'Project Bookmarks' or 'User Bookmarks' and select 'Import Spatial Bookmarks'. Navigate to where you have saved the gmw_qgis_bookmarks.xml file and load this file. You should then have the list of bookmarks and double clicking on the bookmark will navigate the map to the bookmark.
 
+![Screenshot showing how to load the bookmarks](figures/load_bookmarks.png)
 
-
+![Screenshot showing bookmarks loaded in QGIS](figures/loaded_bookmarks.png)
 
 
 
