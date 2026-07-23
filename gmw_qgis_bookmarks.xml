@@ -12,6 +12,17 @@
     <sr_id>3452</sr_id>
   </bookmark>
   <bookmark>
+    <id>{e69fd40d-4875-4dcb-8d0d-cdf3c16d4b25}</id>
+    <name>GMW: Dynamic: Bangladesh - area of expansion and losses</name>
+    <project>GMW</project>
+    <xmin>91.80779992899999797</xmin>
+    <ymin>21.39908591100000024</ymin>
+    <xmax>92.0784151780000002</xmax>
+    <ymax>21.75277504099999959</ymax>
+    <rotation>0</rotation>
+    <sr_id>3452</sr_id>
+  </bookmark>
+  <bookmark>
     <id>{39a82962-788b-4738-aba5-2ac2741ed34b}</id>
     <name>GMW: Dynamic: Brazil, Crab Island </name>
     <project>GMW</project>
